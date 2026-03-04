@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!--Integrantes: Vinicius Diggroc e Miguel Scalet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    <title>Ordenador</title>
+</head>
+<body>
+        <div class="container mt-3">
+        <div class="row mb-3">
+            <div class="col-md-12 col-sm-12 mb-2">
+                <form class="cmxform" id="formExemplo" method="get" action>
+                  
+
+                        <!--https://jqueryvalidation.org/documentation/-->
+                        <div class="form-group">
+                            <label for="z">Valor 1</label>
+                            <input type="number"  placeholder="Digite o número 1" class="form-control" id="z" required
+                                minlength="2" name="txtnome" />
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="y">Valor 2</label>
+                            <input type="number" step="1"  placeholder="Digite o número 2" class="form-control" id="y"  minlength="2"
+                                name="txtidade" required />
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label for="x">Valor 2</label>
+                            <input type="number"  placeholder="Digite o número 3" class="form-control" id="x"
+                                name="txtemail" required />
+                        </div>
+                        <br>
+
+                        <input type="button" id="btnOrdenar" value="Ordenar"/>
+
+            </div>
+            <div class="col-md-12 col-sm-12 mb-2">
+                <div class="alert alert-primary" role="alert">
+                    <p id="txtresultado">Resultado: </p>
+                </div>
+            </div>
+          
+            </form>
+        </div>
+    </div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src = "js/JavaScript.js"></script>
+</body>
+</html>
